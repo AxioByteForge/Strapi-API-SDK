@@ -1,0 +1,22 @@
+{
+    "name": "axio/strapisdk",
+    "description": "Strapi SDK. Allow for easily managing of Strapi API.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "firebase/php-jwt": "^6.10",
+        "axio/session": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Axio\\StrapiSDK\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Gorman",
+            "email": "kgorman436@gmail.com"
+        }
+    ],
+    "license": "Apache-2.0"
+}
